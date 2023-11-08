@@ -7,10 +7,11 @@
 2. **User Preferences:**
    - Ability to customize the interruption levels of Do Not Disturb (DND) modes.
    - Settings to define user availability, such as disabling interruptions during sleep, mindfulness, and theater mode.
+   - Option to note user mobility restrictions (e.g. SCI, wheelchair use, ME/CFS, POTS, or others) that may require different calculations of movement, position, and sedentary vs active periods.
    
 3. **Sedentary Timer:**
-   - Activation based on heart rate data and physical orientation (sitting vs. standing).
-   - Timer starts after detecting a heart rate below a predefined threshold for 'walking heart rate' or when the watch detects a 'sitting' state.
+   - Activation based on heart rate data, physical orientation data, and other indicators available from platform-specific feeds (e.g. sitting vs standing, for able-bodied users).
+   - Timer starts after detecting a heart rate below a predefined threshold (e.g. Apple Health provides 'walking heart rate' data and flags a 'sitting' state; these are relevant for able-bodied users, and may be hackable for the rest of us).
 
 4. **Movement Prompts:**
    - At 25 minutes of sedentary behavior, initiate a haptic prompt for movement.
