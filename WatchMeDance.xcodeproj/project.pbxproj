@@ -102,7 +102,7 @@
 			name = WatchMeDance;
 			productName = WatchMeDance;
 			productReference = 200000000000000000000008 /* WatchMeDance.app */;
-			productType = "com.apple.product-type.application.watchapp2";
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
