@@ -24,6 +24,20 @@ As of 2026-09-07:
 
 If Xcode reports that `com.heaventwig.WatchMeDance` cannot be registered to your team, stop and report that exact message; do not make unrelated signing changes yet.
 
+## Pairing a physical Apple Watch
+
+A physical Apple Watch is paired to Xcode through its companion iPhone; the watch itself is not connected to the Mac by USB.
+
+- Pair the companion iPhone with the Mac first in Xcode's Device Hub.
+- For older watches, keep the Mac, iPhone, and watch on a local network that permits Bonjour discovery.
+- If Xcode's Device Hub asks for a USB-connected device, that refers to the companion iPhone, not the watch.
+- After the iPhone is paired with Xcode, the associated Apple Watch can become an eligible run destination.
+- Enable Developer Mode on the iPhone and Apple Watch if Xcode requests it.
+
+### Observed setup evidence
+
+On 2026-09-07, before the companion iPhone was paired with Xcode, the run-destination menu showed no eligible physical devices and automatic signing could not create a provisioning profile because the Personal Team had no registered device. Treat that as a device-pairing prerequisite, not yet as evidence of a signing or application-code defect.
+
 ## First physical-watch checks
 
 Run these in order and record pass/fail plus anything surprising:
