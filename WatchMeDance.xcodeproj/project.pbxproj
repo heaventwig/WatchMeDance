@@ -215,6 +215,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchMeDance;
+				INFOPLIST_KEY_NSMotionUsageDescription = "WatchMeDance uses motion data in this development build to test whether accessible movement sensing is technically feasible.";
 				INFOPLIST_KEY_WKApplication = YES;
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				MARKETING_VERSION = 0.1.0;
@@ -238,6 +239,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchMeDance;
+				INFOPLIST_KEY_NSMotionUsageDescription = "WatchMeDance uses motion data in this development build to test whether accessible movement sensing is technically feasible.";
 				INFOPLIST_KEY_WKApplication = YES;
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				MARKETING_VERSION = 0.1.0;
