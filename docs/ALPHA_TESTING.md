@@ -2,6 +2,16 @@
 
 This build is development scaffolding, not a health product and not yet the movement-detection MVP. Its purpose is to prove the shortest path from repository code to a real Apple Watch and to test basic prompt mechanisms.
 
+## Verified development baseline
+
+As of 2026-09-07:
+
+- Xcode 26.6 (build 17F113) on macOS 26.6.2;
+- watchOS 26.5 simulator runtime installed;
+- `swift test` passes locally;
+- unsigned watchOS simulator build succeeds locally with Xcode 26.6;
+- GitHub Actions also passes core tests and the unsigned watchOS simulator build.
+
 ## Build
 
 1. Install and open Xcode 26.6 or another Xcode release that supports watchOS 10.
